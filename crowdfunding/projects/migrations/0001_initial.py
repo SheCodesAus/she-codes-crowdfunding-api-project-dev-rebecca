@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('description', models.TextField()),
                 ('image', models.URLField()),
                 ('date_created', models.DateTimeField()),
-                ('artist', models.CharField(max_length=200)),
+                ('owner', models.CharField(max_length=200)),
             ],
         ),
     ]
